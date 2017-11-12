@@ -1,5 +1,5 @@
 *.class
 *.log
-slick_data_univ/.idea
+.idea
 target
 
