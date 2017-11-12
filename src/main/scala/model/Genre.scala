@@ -12,3 +12,6 @@ class GenreTable(tag: Tag) extends Table[Genre](tag, "genres") {
 
   def * = (id, title, description) <> (Genre.apply _ tupled, Genre.unapply)
 }
+object GenreTable{
+  val table = TableQuery[GenreTable]
+}
