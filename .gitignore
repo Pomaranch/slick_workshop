@@ -1,0 +1,5 @@
+*.class
+*.log
+slick_data_univ/.idea
+target
+
